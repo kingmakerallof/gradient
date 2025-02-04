@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+div {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+/* linear gradient */
+/* bacground-image:linear-gradient(direction,color1,colors2....) */
+
+.box {
+    background-image: linear-gradient(#ff6b6b, #feca57);
+}
+
+.box1 {
+    background-image: linear-gradient(to right, #f368e0, #1dd1a1);
+}
+
+.box2 {
+    background-image: linear-gradient(to left, #f368e0, #1dd1a1);
+}
+
+.box3 {
+    background-image: linear-gradient(to bottom right, #f368e0,#feca57,#1dd1a1);
+}
+
+/* linear gradient */
+/* background-image:linear-gradient(angel,color1,colors2....)*/
+
+.box4 {
+    background-image: linear-gradient(75deg, #f368e0,#fbc531,#1dd1a1);
+}
+
+.box5 {
+    background: -webkit-linear-gradient(rgba(44, 58, 71, 0.7), rgba(44, 58, 71, 0.9)), url(flower.jpg);
+    background: -moz-linear-gradient(rgba(44, 58, 71, 0.7), rgba(44, 58, 71, 0.9)), url(flower.jpg);
+    background: -o-linear-gradient(rgba(44, 58, 71, 0.7), rgba(44, 58, 71, 0.9)), url(flower.jpg);
+    background: -ms-linear-gradient(rgba(44, 58, 71, 0.7), rgba(44, 58, 71, 0.9)), url(flower.jpg);
+
+    background: linear-gradient(rgba(44, 58, 71, 0.7), rgba(44, 58, 71, 0.9)), url(flower.jpg);
+}
+
+.box6 {
+    background-image: repeating-linear-gradient(#f368e0, #fbc531 10%, #1dd1a1 20%);
+}
+
+/* radial gradient */
+/* background-image: radial-gradient(position,color1,color2....) */
+
+.rbox {
+    background-image: radial-gradient(orange, red);
+}
+
+.rbox1 {
+    width: 600px;
+    background-image: radial-gradient(#30336b 5%, #95afc0 15%, #4834d4 65%);
+}
+
+.rbox2 {
+    background-image: radial-gradient(circle, blue,red);}
+
+.rbox3 {
+    background-image: radial-gradient(closest-side at 60% 55%,blue, orange, red);
+}
+
+.rbox4 {
+    background-image: radial-gradient(farthest-side at 60% 55%, blue, orange, red);
+}
+
+.rbox5 {
+    background-image: radial-gradient(closest-corner at 60% 55%, blue, orange, red);
+}
+
+.rbox6 {
+    background-image: radial-gradient(farthest-corner at 60% 55%, blue, orange, red);
+}
+
+.rbox7 {
+    background-image: repeating-radial-gradient(blue,orange 10%,red 25%);
+    width:700px;
+}
+
+/*conic gradient*/
+/* background-image:conic-gradient([from angle][to position],color1,[degree],colors2....)*/
+
+.cbox {
+    background-image: conic-gradient(#0000ff, orange, red);
+}
+
+.cbox1 {
+    background-image: conic-gradient(#0000ff 45deg, #0097e6 180deg, #0c4d94 220deg);
+}
+
+.cbox2 {
+    background-image: conic-gradient(from 120deg, #0000ff, orange, red);
+}
+
+.cbox3 {
+    background-image: conic-gradient(at 50% 30%, #0000ff, red, orange);
+    border-radius: 50%;
+}
+
+.cbox4 {
+    background-image: repeating-conic-gradient(#0000ff 10%, #0097e6 20%);
+}
+
+.cbox5 {
+    background-image: repeating-conic-gradient(red 10%, orange 20%);
+    border-radius: 50%;
+}
